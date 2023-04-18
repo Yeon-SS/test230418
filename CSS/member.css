@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #595959;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#join_mem {
+  /* margin-top: 120px; */
+  width: 80%;
+  height: 700px;
+  border-radius: 10px;
+  padding: 0 5px;
+  background: url(../img/page/background.png) no-repeat center fixed;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close2 {
+  float: right;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  width: 40px;
+  height: 40px;
+  color: #595959;
+}
+
+.button1 {
+  float: left;
+  border: 1px solid #333;
+  color: #595959;
+  background-color: #fff;
+}
+
+.button2 {
+  float: right;
+  color: #fff;
+  background-color: #595959;
+}
+
+.button1,
+.button2 {
+  width: 43% !important;
+  height: 45px;
+  border-radius: 5px;
+  margin: 60px 0 0 10px;
+  padding-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.but {
+  width: 130px;
+  height: 34px;
+  border: 1px solid #333;
+  text-align: center;
+  padding-top: 4px;
+  background: #fff;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+#join_mem label {
+  display: block;
+  padding-left: 3px;
+  margin-bottom: 2px;
+  color: #595959;
+}
+
+#form_join {
+  margin-top: 140px;
+}
+
+#id1,
+#ph1,
+#ph3 {
+  float: left;
+}
+
+#id2,
+#ph2,
+#ph4 {
+  float: left;
+  margin-left: 10px;
+}
+
+.phok {
+  clear: both;
+}
+
+#id3 {
+  clear: both;
+  color: #595959;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#join_mem form {
+  margin: 20px 15px 0;
+}
+
+#join_mem input {
+  display: inline-block;
+  margin-bottom: 10px;
+  border: none;
+  color: #595959;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  width: 330px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #595959;
+  padding: 3px 5px;
+}
+
+#email_on {
+  clear: both;
+  height: 40px;
+}
+
+#email_on>input { width: 60%;}
+
+
+#email_type {
+  width: 30%;
+  height: 30px;
+  transform: translateY(-5px);
+}
+
+#button {
+  margin-top: 10px;
+}
+
+#button input {
+  background: #595959;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 20%;
+  color: #fff;
+  line-height: 1.6;
+  margin-top: 50px;
+  margin-right: 40px;
+  float: right;
+}
+
+#button input:hover {
+  background: #fff;
+  color: #595959;
+}
+
+#pwd,
+#pwd1 {
+  width: 100% !important;
+}
+
+input::-webkit-input-placeholder {
+  color: #fff;
+}
+/* webklt 붙여서 사용 그래야 인식함 */

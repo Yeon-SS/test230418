@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #595959;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#join_mem {
+  /* margin-top: 120px; */
+  width: 80%;
+  height: 700px;
+  border-radius: 10px;
+  padding: 0 5px;
+  background: url(../img/page/background.png) no-repeat center fixed;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close2 {
+  float: right;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  width: 40px;
+  height: 40px;
+  color: #595959;
+}
+
+.button1 {
+  float: left;
+  color: #fff;
+  background-color: #595959;
+}
+
+.button2 {
+  float: right;
+  border: 1px solid #333;
+  color: #595959;
+  background-color: #fff;
+}
+
+.button1,
+.button2 {
+  width: 43% !important;
+  height: 45px;
+  border-radius: 5px;
+  margin: 60px 0 0 10px;
+  padding-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#join_mem label {
+  display: block;
+  padding-left: 3px;
+  margin-bottom: 2px;
+  color: #595959;
+}
+
+#join_mem form {
+  margin: 20px 15px 0;
+}
+
+#join_mem input {
+  display: inline-block;
+  margin-bottom: 10px;
+  border: none;
+  color: #595959;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #595959;
+  padding: 3px 5px;
+}
+
+#form_join {
+  margin-top: 140px;
+}
+
+#button input {
+  width: 100%;
+  margin-top: 10px;
+  background: #fff;
+  line-height: 1.8;
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+#button input:hover {
+  background: #595959;
+  color: #fff;
+}
+
+#check {
+  width: 20px !important;
+}
+
+.left {
+  position: absolute;
+  float: left;
+  padding-left: 50px;
+}
+
+.right {
+  float: right;
+  padding-right: 50px;
+}
+
+p {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px solid #333;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pass {
+  text-align: center;
+  width: 100%;
+}
+
+.pass li {
+  margin-top: 20px;
+}
+
+.pass li:nth-child(2) {
+  background: #fae100;
+  border: 1px solid #333;
+}
+.pass li:nth-child(3) {
+  background: #03d15e;
+  border: 1px solid #333;
+}
+.pass li:nth-child(4) {
+  background: #fff;
+  border: 1px solid #333;
+}
+
+.pass img {
+  width: 35px;
+  vertical-align: middle;
+  margin-right: 60px;
+}
